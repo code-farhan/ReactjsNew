@@ -1,0 +1,37 @@
+.header {
+    height: 30px;
+    color: #ffffff;
+    background-color: #3f51b5;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+.messagerContainer {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerText {
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.profilePhoto {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.profileInfo {
+    display: flex;
+    align-items: center;
+}
